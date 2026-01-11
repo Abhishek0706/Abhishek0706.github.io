@@ -42,6 +42,27 @@
       font-size: 34px;
     }
   }
+  .site-position {
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+    margin-top: 15px;
+    @media only screen and (min-width:$cut){
+      font-size: 22px;
+      margin-top: 20px;
+    }
+  }
+  .site-qualification {
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+    margin-top: 8px;
+    @media only screen and (min-width:$cut){
+      font-size: 22px;
+    }
+  }
 }
 
 .header-links {
