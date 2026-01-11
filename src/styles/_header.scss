@@ -46,6 +46,7 @@
 
 .header-links {
   margin: 10px;
+  margin-top: 20px;
   .link {
     color: #FFF;
     text-decoration: none;
@@ -53,6 +54,36 @@
     margin: 10px;
     @media only screen and (min-width:$cut){
       font-size: 20px;
+    }
+  }
+  .resume-link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    transition: all .5s;
+    &:hover {
+      color: $main;
+      background: #FFF;
+    }
+    &:active {
+      color: $main;
+      background: #FFF;
+    }
+    i {
+      font-size: 16px;
+    }
+    @media only screen and (min-width:$cut){
+      font-size: 18px;
+      padding: 10px 20px;
+      i {
+        font-size: 18px;
+      }
     }
   }
 }
